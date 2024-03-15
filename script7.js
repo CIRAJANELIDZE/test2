@@ -53,7 +53,7 @@ function sum (start,end){
        sum(1,7);
     
 
-/*ობიექტ person - ს აქვს შემდეგი properties: firstname, lastname, age, დაწერეთ ფუნქცია 
+/*5. ობიექტ person - ს აქვს შემდეგი properties: firstname, lastname, age, დაწერეთ ფუნქცია 
 რომელიც პერსონის ასაკის მიხედვით დაბეჭდავს 
 თუ 18  წელზე პატარაა - “პერსონის სახელი” არასრულწლოვანია
 თუ 18 და მეტია “პერსონის სახელი” - სრულწლოვანია */
@@ -72,6 +72,34 @@ function sum (start,end){
     }
    }
      console.log(person.firstname,isudalt(person.age));
+
+/*6.გამოაცხადეთ მასივი phones ელემენტებით : Iphone, Samsung, Pixel, Huawei, Xiaomi და დაბეჭდეთ.
+ Დაბეჭდეთ ელემენტები სათითაოდ ( გამოიყენეთ for ციკლი)*/
+
+  let phones = [ "iphone", "Samsung", "Pixel", "Huawei", "Xiaomi"];
+  for (let i=0; i< phones.length; i++){
+    console.log(phones [i]);
+  }
+
+  /*7. Გამოაცხადეთ ცვლადი num სასურველი მნიშვნელობით ( მაგ. 23), დაბეჭდეთ რიცხვები 1 დან
+   num ის ჩათვლით ( გამოიყენეთ while ციკლი).*/
+
+    const num = 23;
+    let i=1;
+    while ( i< 23){
+        console.log(i);
+       i++}
+    
+/*Გამოიყენეთ სასურველი ციკლი და დაბეჭდეთ ლუწი რიცხვები 2-დან 14 - ის ჩათვლით , 
+გამოიყენეთ სასურველი ციკლი ( for, while)*/
+
+  const  k=1;
+  for (k=2; a<13; k+=2){
+    console.log(k);
+  }
+
+ 
+
 
 
      
